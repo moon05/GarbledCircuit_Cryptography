@@ -1,0 +1,82 @@
+{
+    "gates": {
+        "g1": {
+            "inp": [
+                "w1",
+                "w2"
+            ],
+            "out": ["w5"],
+            "table": [
+                "53de75405eea4f58b23518577e4dec9705e9501a5d8e4de9ccd9bd878285e1b917491540177d2994729ab068c5c291ffe0a512293017d22349db7f52ba30a683bc371faeadd981ff3b6eab7cf5963af4",
+                "e1a45031e630d7ca486ebf5a27186d524d3c23508fe87834ffc472788ccb7ecd1041d7c6873cb76fdf84b7c28724d4a8b7f17a8ae721047e2e0b6857f5bb4424aad0c2e904a50bceef8915487d590819",
+                "1e7bfa576e1dc02493d242cd839f30e4484cdf0d6d79c295ed3ee71d7f573dca4640764c07f7747f92a89092522c4a105faf7a00b27f831a50d9c42b3def5c686cdae71c1e4fecc2c06fc01e9d30eeea",
+                "db4cb1604e47c1ac2f450f2f0c8973b977d4c201279f6e5298efc20da75a602639a7654d8087ce810f7395734e7ba1da7014c3247278714207ccd1652cd51052ea781f254a3798153eb8bffd24299a6d"
+            ],
+            "type": "AND"
+        },
+        "g2": {
+            "inp": [
+                "w3",
+                "w4"
+            ],
+            "out": ["w6"],
+            "table": [
+                "65428cd975214a3fe81009ab50b03a06b4c2e082cb4d0559ff87fd3709bf164f2e5c010d8d9bcb1ac4a4edd89c053d6ab51640b8b055ed400d903e92da237bd2e6255643fa6825efbbd43d97bfec6345",
+                "d7001d1b542070c1131848b794169d1e442e66b86bad0334b0b7d2774509be9a05228aac1a329a38cf792cda6b37234d6822fc5ce7cd755065eaaa80c70e53e041104d33e31b57d8b99472c65b16a694",
+                "b8c950b22fdc07856dc8896888b7e0ba69493ce991b048e37a5f7df4d1b8ccf36e19e459e2639720f392908ae32a66c672e5f51b96be056317c592bf40aee03ef0b698bde53c28a3448ba09537f46548",
+                "198284941a211d507784b81e0f272fa68aacff3725ac6ea5d42b22dede380c22bae445012bdbe765f643175a194cffed505263069f37bc1471b3407f50d74f001bb3697aaef4de1ea78c2065ae93796c"
+            ],
+            "type": "AND"
+        },
+        "g3": {
+            "inp": [
+                "w5",
+                "w6"
+            ],
+            "out": ["w7"],
+            "table": [
+                "37249f5373422b963bc7b78c1349aa2c5c1998db19a5d3f1d224c1726fe12f4173287b9fdfbfbd5dfdd23a0652862ef9de94412e5059e3892e985bca41f57a4aee84ba3ab0bff443e9a9298fe19cd96d",
+                "1f17507dbbee0dd6279739b195a62f2d41fd3fafe01b8ba8aecdcb4daa3384d5bce9f028826ff6e3a8c46704c2862d140c18895c076ab1283861e3d5fb636767dbdf0143ef295f0b5c7e31621f80d3f3",
+                "bb1bb0614c6a06d45288a276ccbe8260d026b7e9268dfeb3bb6bd488b016070d44468cc83a8d376843e5f8c714c2a79cf47d823282cb73050e7ce4a092d8a86ddf931a940f92d08f3b2bdd0247460b1f",
+                "91dbfcec66502c21071cc8423ad486e1cf31933e3da5aa5f8e463abe05412d19fd342db79de7477b12c7cf6908fafe5c504260882f421a091cb13613a476ef6d758697934cad40ec53b6e3a6e29dd3b7"
+            ],
+            "type": "AND"
+        }
+    },
+    "inputs": {
+        "w1": "93c103bf94bdb02a4e37e36873cab8ab",
+        "w2": "1caff4828ddebda6f4a33708267b67c5",
+        "w3": "4ff5a4a3515600c1dbb8137bb49817af",
+        "w4": "6c54fd533c7a2929d4b1d726d24ad2ab"
+    },
+    "wires": {
+        "w1": {
+            "0": "93c103bf94bdb02a4e37e36873cab8ab",
+            "1": "a3fd39e2086d0afb32ef1a82c0d52f4d"
+        },
+        "w2": {
+            "0": "1caff4828ddebda6f4a33708267b67c5",
+            "1": "aaa366b34b8c79f40cf073023661b407"
+        },
+        "w3": {
+            "0": "a75558e16412e665e8b1f216ba582903",
+            "1": "4ff5a4a3515600c1dbb8137bb49817af"
+        },
+        "w4": {
+            "0": "bf28816561b73a00546ffbab92184124",
+            "1": "6c54fd533c7a2929d4b1d726d24ad2ab"
+        },
+        "w5": {
+            "0": "0380ef8f71e96f960d3fc6e31c32ac51",
+            "1": "eb2a1b769bdcb57517ca057f735544a6"
+        },
+        "w6": {
+            "0": "6d489b428727ce2583c956e60b9e48f5",
+            "1": "defb5b0c8b8d6bc86c82df957b57160c"
+        },
+        "w7": {
+            "0": "9d794189b12ccd7af5566e28ae23dc2f",
+            "1": "74845d3f573fcdfc2c2822cd79dc5434"
+        }
+    }
+}
